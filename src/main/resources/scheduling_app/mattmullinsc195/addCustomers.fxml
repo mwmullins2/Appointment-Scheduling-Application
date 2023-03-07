@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AddCustomerController">
+   <children>
+      <TextField disable="true" editable="false" layoutX="345.0" layoutY="116.0" text="     AUTO-GENERATED" />
+      <TextField fx:id="addCustomerNameTextField" layoutX="345.0" layoutY="168.0" />
+      <TextField fx:id="addCustomerPhoneTextField" layoutX="345.0" layoutY="225.0" />
+      <TextField fx:id="addCustomerAddressTextField" layoutX="345.0" layoutY="282.0" />
+      <TextField fx:id="addCustomerPostalTextField" layoutX="345.0" layoutY="330.0" />
+      <ComboBox fx:id="addCustomerDivisionComboBox" layoutX="435.0" layoutY="440.0" onAction="#divisionComboAction" prefWidth="150.0" />
+      <ComboBox fx:id="addCustomerCountryComboBox" layoutX="139.0" layoutY="440.0" onAction="#countryComboAction" prefWidth="150.0" />
+      <Button fx:id="saveCustomerButton" layoutX="302.0" layoutY="530.0" mnemonicParsing="false" onAction="#saveCustomerAction" prefHeight="43.0" prefWidth="136.0" text="SAVE CUSTOMER" />
+      <Button fx:id="addCustCancelButton" layoutX="328.0" layoutY="606.0" mnemonicParsing="false" onAction="#addCustCancelAction" prefHeight="43.0" prefWidth="85.0" text="CANCEL" />
+      <Label layoutX="181.0" layoutY="115.0" prefHeight="27.0" prefWidth="126.0" text="Customer ID ">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="181.0" layoutY="167.0" text="Customer Name ">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="181.0" layoutY="281.0" text="Address ">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="178.0" layoutY="329.0" text="Postal Code ">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="182.0" layoutY="224.0" text="Phone Number ">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="184.0" layoutY="396.0" text="Country">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="452.0" layoutY="396.0" text="State/Province">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="206.0" layoutY="49.0" text="Add Customer to Database">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
