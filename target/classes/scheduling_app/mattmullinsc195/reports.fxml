@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ReportsController">
+   <children>
+      <TableView fx:id="numberCustomersReportTable" layoutX="28.0" layoutY="102.0" prefHeight="200.0" prefWidth="387.0">
+        <columns>
+          <TableColumn fx:id="numbCustomersCol" prefWidth="137.0" text="Number of Customers" />
+          <TableColumn fx:id="numCustTypeCol" prefWidth="138.0" text="Type" />
+            <TableColumn fx:id="numbCustMonthCol" prefWidth="111.0" text="Month" />
+        </columns>
+      </TableView>
+      <TableView fx:id="customReportTable" layoutX="586.0" layoutY="102.0" prefHeight="200.0" prefWidth="387.0">
+        <columns>
+          <TableColumn fx:id="previousAppointmentIDCol" prefWidth="119.0" text="Appointment ID" />
+          <TableColumn fx:id="previousCustomerIDCol" prefWidth="106.0" text="Customer ID" />
+            <TableColumn fx:id="previousAppointmentEndCol" prefWidth="161.0" text="Appointment Ended On" />
+        </columns>
+      </TableView>
+      <TableView fx:id="contactScheduleReportTable" layoutX="28.0" layoutY="389.0" prefHeight="200.0" prefWidth="945.0">
+        <columns>
+          <TableColumn fx:id="scheduleAppIDCol" prefWidth="96.0" text="Appointment ID" />
+          <TableColumn fx:id="scheduleTitleCol" prefWidth="117.0" text="Title" />
+            <TableColumn fx:id="scheduleTypeCol" prefWidth="92.0" text="Type" />
+            <TableColumn fx:id="scheduleDescriptionCol" prefWidth="190.0" text="Description" />
+            <TableColumn fx:id="scheduleStartCol" prefWidth="194.0" text="Start Date/Time" />
+            <TableColumn fx:id="scheduleEndCol" prefWidth="174.0" text="End Date/Time" />
+            <TableColumn fx:id="scheduleCustIDCol" prefWidth="81.0" text="Customer ID" />
+        </columns>
+      </TableView>
+      <ComboBox fx:id="contactComboBox" layoutX="206.0" layoutY="352.0" onAction="#contactComboBoxAction" prefHeight="25.0" prefWidth="171.0" promptText="Please Select Contact" />
+      <Label layoutX="28.0" layoutY="354.0" prefHeight="20.0" prefWidth="178.0" text="Report: Contact Schedule">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitButton" layoutX="772.0" layoutY="630.0" mnemonicParsing="false" onAction="#exitButtonAction" text="Return To Main Screen" />
+      <Label layoutX="28.0" layoutY="77.0" prefHeight="20.0" prefWidth="347.0" text="Report: Number of Customers by Type and Month">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="586.0" layoutY="77.0" text="Report: All Previous Appointments">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
