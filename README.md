@@ -12,3 +12,33 @@ This is a  Java-based application that allows users to manage their appointments
 * Alerting users of upcoming appointments within 15 minutes of logging in
 * Generating reports such as the total number of customer appointments by type and month, a schedule for each contact in the organization, and an additional report of the user's choice
 * Tracking user activity by recording all user log-in attempts, dates, and timestamps and saving them in a file named login_activity.txt
+
+## Login Screen
+![image](https://raw.githubusercontent.com/mwmullins2/Appointment-Scheduling-Application/main/lib/SchedulingAppLogin.PNG))
+
+## Upcoming Appointment Check
+![image](https://raw.githubusercontent.com/mwmullins2/Appointment-Scheduling-Application/main/lib/UpcomingAppointmentCheck.PNG)
+
+## Home Screen
+![image](https://raw.githubusercontent.com/mwmullins2/Appointment-Scheduling-Application/main/lib/HomeScreen.PNG)
+
+## Add Customer
+![image](https://raw.githubusercontent.com/mwmullins2/Appointment-Scheduling-Application/main/lib/AddCustomer.PNG)
+
+## Update Customer
+![image](https://raw.githubusercontent.com/mwmullins2/Appointment-Scheduling-Application/main/lib/UpdateCustomer.PNG)
+
+## Delete Customer
+![image](https://raw.githubusercontent.com/mwmullins2/Appointment-Scheduling-Application/main/lib/DeleteCustomer.PNG)
+
+## Add Appointment
+![image](https://raw.githubusercontent.com/mwmullins2/Appointment-Scheduling-Application/main/lib/AddAppointments.PNG)
+
+## Update Appointment
+![image](https://raw.githubusercontent.com/mwmullins2/Appointment-Scheduling-Application/main/lib/UpdateAppointments.PNG)
+
+## Delete Appointment
+![image](https://raw.githubusercontent.com/mwmullins2/Appointment-Scheduling-Application/main/lib/DeleteAppointment.PNG)
+
+## Reports
+![image](https://raw.githubusercontent.com/mwmullins2/Appointment-Scheduling-Application/main/lib/Reports.PNG)
